@@ -1,5 +1,6 @@
 # API Challenge - World Weather Analysis 
 
+
 ## Summary: 
 This challenge focused on using API calls to generate weather data for multiple locations all over the world. The main goal was to see: "What's the weather like as we approach the equator?" The next task was to create the perfect vacation based on ones weather preferance and use the Google Places API to search for the nearest hotel. 
 
