@@ -1,7 +1,7 @@
-# API Challenge - Basic Skills Demonstration
+# API Challenge - World Weather Analysis 
 
 ## Summary: 
-This challenge focused on using API calls to generate weather data for multiple locations all over the world. The main goal was to see: "What's the weather like as we approach the equator?"
+This challenge focused on using API calls to generate weather data for multiple locations all over the world. The main goal was to see: "What's the weather like as we approach the equator?" The next task was to create the perfect vacation based on ones weather preferance and use the Google Places API to search for the nearest hotel. 
 
 ## Skills Displayed: 
 * Getting API requests 
@@ -11,6 +11,7 @@ This challenge focused on using API calls to generate weather data for multiple 
 
 ## Part 1: WeatherPy 
 Our task was to create a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, we utilized a simple Python library, the OpenWeatherMap API, and a little common sense to create a representative model of weather across world cities.
+[Jupyter Notebook](
 
 First requirement was to create a series of scatter plots to showcase the following relationships:
 * Temperature (F) vs. Latitude
@@ -18,6 +19,10 @@ First requirement was to create a series of scatter plots to showcase the follow
 * Cloudiness (%) vs. Latitude
 * Wind Speed (mph) vs. Latitude
 
+![](images/Fig1.png)
+![](images/Fig2.png)
+![](images/Fig3.png)
+![](images/Fig4.png)
 
 Second requirement was to run linear regression on each relationship: 
 * Northern Hemisphere and Southern Hemisphere 
