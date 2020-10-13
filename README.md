@@ -3,7 +3,7 @@
 ## Summary
 This project uses API calls to generate weather data for multiple locations all over the world. The goal is to see how the weather changes as we approach the equator. Then, using the generated graphs I built a simple webpages displaying a weather analysis based on latitude. 
 
-https://kasiakalemba.github.io/Weather-Analysis/
+[Visit the Weather Analysis Page](https://kasiakalemba.github.io/Weather-Analysis/)
 ![](images/page.png)
 
 ## Technologies
@@ -15,7 +15,7 @@ https://kasiakalemba.github.io/Weather-Analysis/
 * Google maps & Places
 
 ## Weather Analysis
-I visualized the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, I utilized a simple Python library, the OpenWeatherMap API, and a little common sense to create a representative model of weather across world cities.
+I visualized the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, I utilized a simple Python library, the OpenWeatherMap API to create a representative model of weather across world cities. To read more about the trends, please visit the page. 
 [Jupyter Notebook](https://nbviewer.jupyter.org/github/kasiakalemba/API-Weather-Analysis/blob/master/WeatherPy/WeatherPy.ipynb)
 
 ![](images/city.png)
