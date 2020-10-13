@@ -20,21 +20,31 @@ I visualized the weather of 500+ cities across the world of varying distance fro
 
 ![](images/city.png)
 
+<br>
 First I created a series of scatter plots to showcase the following relationships:
 * Temperature (F) vs. Latitude
 ![](images/Fig1.png)
+<br>
+
 As expected, the weather becomes warmer as one approaches the equator. We can see a clear correlation between the temperature values as you get closer to value 0 which is the equator. The temperatures gradually fall as the latitude increases.
 
 * Humidity (%) vs. Latitude
 ![](images/Fig2.png)
+<br>
+
 Humidity and latitude do not see to have a clear correlation. However, for negative latitude coordinates, there seems to be less high humidity recordings compared higher values. The represented cities average around 80% humidity.
 
 * Cloudiness (%) vs. Latitude
 ![](images/Fig3.png)
+<br>
+
+
 Cloudiness and latitude do not display a clear correaltion. The pattern seems random although latitudes above 0, do cluster more higher values compared to negative latitude values.
 
 * Wind Speed (mph) vs. Latitude
 ![](images/Fig4.png)
+<br>
+
 Windspeed and latitude also display no clear correlation. We do speed higher wind values cluster more in the positive latitude values. We can also notice that the highest windspeeds were recorded in citites with the highest latitude values as well.
 
 Second I ran linear regression on each relationship: 
