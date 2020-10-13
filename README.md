@@ -15,7 +15,7 @@ This project uses API calls to generate weather data for multiple locations all 
 * Google maps & Places
 
 ## Weather Analysis
-I visualized the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, I utilized a simple Python library, the OpenWeatherMap API to create a representative model of weather across world cities. To read more about the trends, please visit the page. 
+I visualized the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, I utilized a simple Python library, the OpenWeatherMap API to create a representative model of weather across world cities. 
 [Jupyter Notebook](https://nbviewer.jupyter.org/github/kasiakalemba/API-Weather-Analysis/blob/master/WeatherPy/WeatherPy.ipynb)
 
 ![](images/city.png)
@@ -23,15 +23,19 @@ I visualized the weather of 500+ cities across the world of varying distance fro
 First I created a series of scatter plots to showcase the following relationships:
 * Temperature (F) vs. Latitude
 ![](images/Fig1.png)
+As expected, the weather becomes warmer as one approaches the equator. We can see a clear correlation between the temperature values as you get closer to value 0 which is the equator. The temperatures gradually fall as the latitude increases.
 
 * Humidity (%) vs. Latitude
 ![](images/Fig2.png)
+Humidity and latitude do not see to have a clear correlation. However, for negative latitude coordinates, there seems to be less high humidity recordings compared higher values. The represented cities average around 80% humidity.
 
 * Cloudiness (%) vs. Latitude
 ![](images/Fig3.png)
+Cloudiness and latitude do not display a clear correaltion. The pattern seems random although latitudes above 0, do cluster more higher values compared to negative latitude values.
 
 * Wind Speed (mph) vs. Latitude
 ![](images/Fig4.png)
+Windspeed and latitude also display no clear correlation. We do speed higher wind values cluster more in the positive latitude values. We can also notice that the highest windspeeds were recorded in citites with the highest latitude values as well.
 
 Second I ran linear regression on each relationship: 
 * Northern Hemisphere and Southern Hemisphere 
