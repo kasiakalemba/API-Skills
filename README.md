@@ -1,22 +1,26 @@
-# API Challenge - World Weather Analysis 
+# World Weather Analysis & Visualization
 
+## Summary
+This project uses API calls to generate weather data for multiple locations all over the world. The goal is to see how the weather changes as we approach the equator. Then, using the generated graphs I built a simple webpages displaying a weather analysis based on latitude. 
 
-## Summary: 
-This challenge focused on using API calls to generate weather data for multiple locations all over the world. The main goal was to see: "What's the weather like as we approach the equator?" The next task was to create the perfect vacation based on ones weather preferance and use the Google Places API to search for the nearest hotel. 
+https://kasiakalemba.github.io/Weather-Analysis/
+![](images/page.png)
 
-## Skills Displayed: 
-* Getting API requests 
-* Converting JSON into python dictionaries 
-* Generation of plots using Matplotlib in Jupyter Notebook
-* Using Google Maps and Places API to obtain information about geographic areas
+## Technologies
+* Language: Python - version 3.7
+* Web design: HTML, CSS, Boostrap 
+* Data Extraction & Exploration: Jupyter notebook, Pandas, Numpy
+* Requests
+* Citypy 
+* Google maps & Places
 
-## Part 1: WeatherPy 
-Our task was to create a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, we utilized a simple Python library, the OpenWeatherMap API, and a little common sense to create a representative model of weather across world cities.
+## Weather Analysis
+I visualized the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, I utilized a simple Python library, the OpenWeatherMap API, and a little common sense to create a representative model of weather across world cities.
 [Jupyter Notebook](https://nbviewer.jupyter.org/github/kasiakalemba/API-Weather-Analysis/blob/master/WeatherPy/WeatherPy.ipynb)
 
 ![](images/city.png)
 
-First requirement was to create a series of scatter plots to showcase the following relationships:
+First I created a series of scatter plots to showcase the following relationships:
 * Temperature (F) vs. Latitude
 ![](images/Fig1.png)
 
@@ -29,16 +33,22 @@ First requirement was to create a series of scatter plots to showcase the follow
 * Wind Speed (mph) vs. Latitude
 ![](images/Fig4.png)
 
-Second requirement was to run linear regression on each relationship: 
+Second I ran linear regression on each relationship: 
 * Northern Hemisphere and Southern Hemisphere 
 * Then creating a multiple linear regression plots. 
 
-## Part 2: VacationPy 
-The task here was to create a heat map that displays the humidity for every city from part I. Using those cities, the task was to narrow them down to your favorite weather conditions and choose your ideal vacation spot. Then based on that location, using Google places API, I found the closest hotel to that city. 
+## Destination Selection
+I created a heat map that displays the humidity for every city from part I. Using those cities, I narrowed them down to my favorite weather conditions and choose an ideal vacation spot. Then based on that location, using Google places API, I found the closest hotel to that city. 
 [Jupyter Notebook](https://github.com/kasiakalemba/API-Weather-Analysis/blob/master/VacationPy/VacationPy.ipynb)
 
 ![](images/hotels.png)
 ![](images/map.png)
+
+## Webpage: Latitude Analysis Dashboard
+In building this dashboard, I created individual pages for each plot and a means to navigate between them. These pages contain the visualizations and their corresponding explanations. I built a landing page, where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
+
+![](images/graphs.png)
+
 
 
 
