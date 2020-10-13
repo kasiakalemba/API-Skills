@@ -1,5 +1,5 @@
 # World Weather Analysis & Visualization
-
+ 
 ## Summary
 This project uses API calls to generate weather data for multiple locations all over the world. The goal is to see how the weather changes as we approach the equator. Then, using the generated graphs I built a simple webpages displaying a weather analysis based on latitude. 
 
