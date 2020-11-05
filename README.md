@@ -6,6 +6,12 @@ This project uses API calls to generate weather data for multiple locations all 
 [Visit the Weather Analysis Page](https://kasiakalemba.github.io/Weather-Analysis/)
 ![](images/page.png)
 
+## Table of Contents
+1. [Technologies](#technologies)
+2. [Weather Analysis](#weather-analysis)
+3. [Destination Selection](#destination-selection)
+4. [Webpage](#webpage)
+
 ## Technologies
 * Language: Python - version 3.7
 * Web design: HTML, CSS, Boostrap 
